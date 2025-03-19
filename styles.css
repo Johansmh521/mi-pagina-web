@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Encabezado */
+
+.biografia {
+    text-align: center;
+    padding: 20px;
+    background-color: #ecf0f1;
+    margin-bottom: 20px;
+}
+
+.biografia h1 {
+    font-size: 2rem;
+}
+
+.biografia img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Enlaces */
+
+.links {
+    text-align: center;
+    padding: 10px;
+    background-color: #bdc3c7;
+    margin-bottom: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #2980b9;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    color: #34495e;
+}
+
+/* Secciones de listas */
+
+.pasatiempos,
+.tareas {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pasatiempos ul,
+.tareas ol {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.pasatiempos li,
+.tareas li {
+    margin-bottom: 5px;
+}
+
+/* Tabla */
+
+.tablas {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tablas table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tablas th,
+.tablas td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.tablas th {
+    background-color: #3498db;
+    color: white;
+}
+
+.tablas td {
+    background-color: #f4f4f4;
+}
+
+/* Formulario */
+
+.formularios {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formularios input,
+.formularios button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.formularios button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.formularios input:hover {
+    background-color: #2ecc71;
+}
+
